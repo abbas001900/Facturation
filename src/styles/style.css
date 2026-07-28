@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(
+      180deg,
+      #3f56b5 0%,
+      #2f437f 20%,
+      #28355f 55%,
+      #233053 100%
+    );
+    overflow-x: hidden;
+    width: 100%;
+    top: 0;
+}
+main{
+    background-color: #E0E6ED !important;
+    min-height: 100vh;
+}
+
+.couleur1{
+    border-bottom: solid 1px rgba(128, 128, 128, 0.316);
+}
+.carreau{
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+}
+.radio{
+    width: 100px;
+    height: 2px;
+    display: inline-block;
+}
+.bleu{
+    color: #106EFD;
+    font-weight: bold;
+}
+input.disparitre {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+input.disparitre:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+#factureTab .nav-link{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: transparent;
+    color: #27355D;
+    border: none !important;
+    transition: all 0.3s ease;
+}
+
+#factureTab .nav-link:hover{
+    background-color: #27355D;
+    color: white;
+}
+
+#factureTab .nav-link.active{
+    background-color: #106EFD !important;
+    color: white !important;
+}
+
+#factureTab .nav-link:focus{
+    box-shadow: none;
+}
+tr, td, th{
+    border: none !important;
+    margin-top: 10px;
+}
+.table-nowrap th,
+.table-nowrap td{
+    white-space: nowrap;
+}
+.table-responsive::-webkit-scrollbar {
+    display: none;
+}
+
+.table-responsive {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.text-primary1{
+    color: #1273BC !important;
+  
+}
+.primary{
+    background-color: #1273BC !important;
+}
+.couleur-compte{
+    background-color: #E0E6ED;
+    min-height: 100vh;
+}
+.border-style{
+border: 2px dashed #000;
+}
+@media (min-width:992px){
+
+    header{
+        position: fixed;
+        z-index: 1000;
+    }
+    main{
+        margin-top: 220px;
+    }
+
+}
+@media (max-width:1024px) {
+    main{
+        margin-top: 300px;
+    }
+    
+}
+@media (max-width:991px){
+
+    header{
+        position: relative;
+    }
+    main{
+        margin-top: 0;
+    }
+    .none{
+        border-right:none !important;
+    }
+
+}

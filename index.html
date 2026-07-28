@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACTURATION-APP</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link href="./src/styles/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+
+    <div class="container-fluid p-0">
+        <header>
+            <div>
+                <div class=" d-flex justify-content-between couleur1 text-white p-2">
+                    <a href="#" class="fs-5 text-white text-decoration-none">FACTURATION-APP</a>
+                    <div>
+                        <i class="bi bi-patch-question-fill m-2">Aide</i>
+
+                        <i class="bi bi-calendar-event m-2"></i>
+                        <i class="bi bi-shop m-2"></i>
+
+                        <i class="bi bi-gear-fill m-2"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row p-3 g-3">
+                <div class="col-12 col-lg-3 col-md-6 text-white none "
+                    style="border-right: solid 1px rgba(255, 255, 255, 0.711) ; ">
+                    <span class="text-secondary">PRODUCTIVITE</span>
+                    <div class="mt-2">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-graph-up"> </i>
+                            <span class="ms-1">Analyse</span>
+                        </a>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-check-circle"></i>
+                            <span class="ms-1">Tache</span>
+                        </a>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-card-checklist"></i>
+                            <span class="ms-1">Projets</span>
+                        </a>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-clock-history"></i>
+                            <span class="ms-1">Suivi du temps</span>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 text-white none"
+                    style="border-right: solid 1px rgba(255, 255, 255, 0.711) ; ">
+                    <span class="text-secondary">SUIVI ET FACTURES</span>
+                    <div class="mt-2">
+                        <a href="./src/pages/facture/facturation.html" class="text-decoration-none text-white ">
+                            <i class="bi bi-file-earmark-bar-graph"></i>
+                            <span class="ms-1">Facturation</span>
+                        </a>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="./src/pages/client/clients.html" class="text-decoration-none text-white ">
+                            <i class="bi bi-person-square"></i>
+                            <span class="ms-1">Clients</span>
+                        </a>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="./src/pages/article.html" class="text-decoration-none text-white ">
+                            <i class="bi bi-file-earmark"></i>
+                            <span class="ms-1">Articles</span>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 text-white none"
+                    style="border-right: solid 1px rgba(255, 255, 255, 0.711) ; ">
+                    <span class="text-secondary">COMPTABILITES</span>
+                    <div class="mt-2">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-journal-bookmark"></i>
+                            <span class="ms-1">Livres</span>
+                        </a>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <span class="ms-1">Declarations</span>
+                        </a>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-file-text"></i>
+                            <span class="ms-1">TVA</span>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 text-white  d-flex gap-5 flex-wrap">
+                    <div>
+                        <span class="text-secondary">ALLER PLUS LOIN</span>
+                        <div class="mt-2">
+                            <a href="#" class="text-decoration-none text-white ">
+                                <i class="bi bi-tag-fill"></i>
+                                <span class="ms-1">CE des insides</span>
+                            </a>
+
+                        </div>
+
+                        <div class="mt-1">
+                            <a href="#" class="text-decoration-none text-white ">
+                                <i class="bi bi-card-checklist"></i>
+                                <span class="ms-1">Parrainage</span>
+                            </a>
+
+                        </div>
+                        <div class="mt-1">
+                            <a href="#" class="text-decoration-none text-white ">
+                                <i class="bi bi-link-45deg"></i>
+                                <span class="ms-1">Integration</span>
+                            </a>
+
+                        </div>
+                        <div class="mt-1">
+                            <a href="#" class="text-decoration-none text-white ">
+                                <i class="bi bi-cloud-download"></i>
+                                <span class="ms-1">Export</span>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="mt-1">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-shop"></i>
+                            <span class="ms-1">Store</span>
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </header>
+        <main class="py-3">
+            <div class="container-fluid mt-3">
+                <div class="container-fluid">
+                    <h3 class="fw-bold">Bonjour User</h3>
+                    <div class="row  g-3 gap-5   d-flex  justify-content-center">
+                        <div class="col-12 col-lg-5 bg-white shadow-lg rounded-4 p-3">
+                            <h5 class="fw-bolder">Statistique des facturations</h5>
+                            <p>Faite glisser votre souris au dessus du diagramme pour voir plus de détails</p>
+                            <div class="d-flex flex-wrap">
+                                <div class="w-50">
+                                    <svg width="70%" height="70%" viewBox="0 0 2253.00 2253.00" version="1.1"
+                                        xml:space="preserve"
+                                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5; border: solid 1px rgba(128, 128, 128, 0.223); border-left: none;"
+                                        fill="#000000" transform="rotate(0)" stroke="none" id="svg12"
+                                        sodipodi:docname="Doughnut.svg"
+                                        inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+                                        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                                        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                                        <defs id="defs16" />
+
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#CCCCCC" stroke-width="4.506" />
+                                        <g id="SVGRepo_iconCarrier">
+                                            <rect id="donut_chart" x="1.997" y="0" width="2250" height="2250"
+                                                style="fill:none;" />
+                                            <path
+                                                d="M1147.83,208.333c-517.767,0 -937.5,419.733 -937.5,937.5c-0,428.307 290.274,802.155 705.228,908.271l116.136,-454.135c-207.477,-53.058 -352.614,-239.982 -352.614,-454.136c-0,-258.883 209.866,-468.75 468.75,-468.75l-0,-468.75Z"
+                                                style="fill:#1E588B;stroke:#202020;stroke-width:0.02253;fill-opacity:1"
+                                                id="path5" />
+                                            <path
+                                                d="M1997.49,749.576c-153.977,-330.174 -485.321,-541.243 -849.663,-541.243l-0,468.704c182.171,0 347.843,105.535 424.832,270.622l424.831,-198.083Z"
+                                                style="fill:#DE4222;stroke:#202020;stroke-width:0.02253;" id="path7" />
+                                            <path
+                                                d="M905.188,2051.39c500.124,134.008 1014.19,-162.788 1148.2,-662.913c64.353,-240.168 30.664,-496.064 -93.656,-711.393l-405.95,234.375c62.16,107.665 79.005,235.613 46.828,355.697c-67.003,250.062 -324.036,398.46 -574.099,331.456l-121.321,452.778Z"
+                                                style="fill:#2FC235;stroke:#202020;stroke-width:0.02253;" id="path9" />
+                                        </g>
+
+                                    </svg>
+
+                                </div>
+                                <div class="w-50 mt-4">
+                                    <div class="d-flex gap-2 mt-3">
+                                        <span class=" carreau " style="background-color: #DE4222;"></span>
+                                        <span>En attente</span>
+                                    </div>
+                                    <div class="d-flex gap-2 mt-3">
+                                        <span class=" carreau" style="background-color: #1E588B;"></span>
+                                        <span>En cours </span>
+                                    </div>
+                                    <div class="d-flex gap-2 mt-3">
+                                        <span class=" carreau" style="background-color: #2FC235;"></span>
+                                        <span>Finalisé</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 bg-white shadow-lg rounded-4 p-3">
+                            <h5 class="fw-bolder">Statistique des articles par catégorie</h5>
+                            <p>Faite glisser votre souris au dessus du diagramme pour voir plus de détails</p>
+                            <div class="d-flex flex-wrap">
+                                <div class="w-50">
+                                    <svg width="70%" height="70%" viewBox="0 0 2253.00 2253.00" version="1.1"
+                                        xml:space="preserve"
+                                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5; "
+                                        fill="#000000" transform="rotate(0)" stroke="none" id="svg12"
+                                        sodipodi:docname="Doughnut.svg"
+                                        inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+                                        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                                        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+                                        <defs id="defs16" />
+
+                                        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#CCCCCC" stroke-width="4.506" />
+                                        <g id="SVGRepo_iconCarrier">
+                                            <rect id="donut_chart" x="1.997" y="0" width="2250" height="2250"
+                                                style="fill:none;" />
+                                            <path
+                                                d="M1147.83,208.333c-517.767,0 -937.5,419.733 -937.5,937.5c-0,428.307 290.274,802.155 705.228,908.271l116.136,-454.135c-207.477,-53.058 -352.614,-239.982 -352.614,-454.136c-0,-258.883 209.866,-468.75 468.75,-468.75l-0,-468.75Z"
+                                                style="fill:#2FC235;stroke:#202020;stroke-width:0.02253;fill-opacity:1"
+                                                id="path5" />
+                                            <path
+                                                d="M1997.49,749.576c-153.977,-330.174 -485.321,-541.243 -849.663,-541.243l-0,468.704c182.171,0 347.843,105.535 424.832,270.622l424.831,-198.083Z"
+                                                style="fill:#1E588B;stroke:#202020;stroke-width:0.02253;" id="path7" />
+                                            <path
+                                                d="M905.188,2051.39c500.124,134.008 1014.19,-162.788 1148.2,-662.913c64.353,-240.168 30.664,-496.064 -93.656,-711.393l-405.95,234.375c62.16,107.665 79.005,235.613 46.828,355.697c-67.003,250.062 -324.036,398.46 -574.099,331.456l-121.321,452.778Z"
+                                                style="fill:#DE4222;stroke:#202020;stroke-width:0.02253;" id="path9" />
+                                        </g>
+
+                                    </svg>
+
+                                </div>
+                                <div class="w-50 mt-4">
+                                    <div class="d-flex gap-2 mt-3">
+                                        <span class=" carreau " style="background-color: #DE4222;"></span>
+                                        <span>Prestation de service</span>
+                                    </div>
+                                    <div class="d-flex gap-2 mt-3">
+                                        <span class=" carreau" style="background-color: #2FC235;"></span>
+                                        <span>Vente de marchandise</span>
+                                    </div>
+                                    <div class="d-flex gap-2 mt-3">
+                                        <span class=" carreau" style="background-color: #1E588B;"></span>
+                                        <span>Prestation Artistique</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class="container-fluid mt-5">
+                    <div class="row g-3  align-items-stretch d-flex">
+                        <div class="col-12 col-lg-4 " >
+                         <div class="">
+                               <div class=" shadow bg-white p-3 d-flex justify-content-between rounded-2">
+                                <div>
+                                    <i class="bi bi-file-earmark-bar-graph"></i>
+                                    <span>Facturation</span>
+
+                                </div>
+                                <div>
+                                    <i class="bi bi-chevron-right"></i>
+                                </div>
+
+                            </div>
+
+
+                            <div class="shadow bg-white p-3 mt-2 rounded-2" style="height: 570px;">
+                                <div>
+                                    <div class="d-flex text-center">
+                                        <div class="w-50">
+                                            <p class="mb-0 bleu">En attente</p>
+                                            <span class="radio mt-0 w-100" style="background-color:#1E588B;"></span>
+                                        </div>
+
+                                        <div class="w-50">
+                                            <p class="mb-0 text-secondary">En retard</p>
+                                            <span class="radio mt-0 w-100" style="background-color:#DE4222;"></span>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap">
+                                        <div>
+                                            <p class="mb-0">F-2023-0112</p>
+                                            <span class="bleu">John Doe</span>
+                                            <p class="text-secondary">13 mars 2023</p>
+                                        </div>
+                                        <div>
+                                            <p class="fw-bold">11 500,00 fcfa</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap">
+                                        <div>
+                                            <p class="mb-0">F-2023-0112</p>
+                                            <span class="bleu">John Doe</span>
+                                            <p class="text-secondary">13 mars 2023</p>
+                                        </div>
+                                        <div>
+                                            <p class="fw-bold">11 500,00 fcfa</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap">
+                                        <div>
+                                            <p class="mb-0">F-2023-0112</p>
+                                            <span class="bleu">John Doe</span>
+                                            <p class="text-secondary">13 mars 2023</p>
+                                        </div>
+                                        <div>
+                                            <p class="fw-bold">11 500,00 fcfa</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap">
+                                        <div>
+                                            <p class="mb-0">F-2023-0112</p>
+                                            <span class="bleu">John Doe</span>
+                                            <p class="text-secondary">13 mars 2023</p>
+                                        </div>
+                                        <div>
+                                            <p class="fw-bold">11 500,00 fcfa</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap">
+                                        <div>
+                                            <p class="mb-0">F-2023-0112</p>
+                                            <span class="bleu">John Doe</span>
+                                            <p class="text-secondary">13 mars 2023</p>
+                                        </div>
+                                        <div>
+                                            <p class="fw-bold">11 500,00 fcfa</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                         </div>
+                        </div>
+                        <div class="col-12 col-lg-4 " style="height:700px !important;">
+                         <div class="">
+                               <div class=" shadow bg-white p-3 d-flex justify-content-between rounded-2">
+                                <div>
+                                    <i class="bi bi-file-earmark"></i>
+                                    <span class="ms-1">Articles</span>
+
+                                </div>
+                                <div>
+                                    <i class="bi bi-chevron-right"></i>
+                                </div>
+
+                            </div>
+
+
+                            <div class="shadow bg-white p-3 mt-2 rounded-2" style="height: 570px;">
+                                <div>
+                                    <div class="d-flex text-center">
+                                        <div class="w-50">
+                                            <p class="mb-0 bleu">En attente</p>
+                                            <span class="radio mt-0 w-100" style="background-color:#1E588B;"></span>
+                                        </div>
+
+                                        <div class="w-50">
+                                            <p class="mb-0 text-secondary">En retard</p>
+                                            <span class="radio mt-0 w-100" style="background-color:#DE4222;"></span>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap">
+                                        <div>
+                                            <p class="mb-0 fw-bold">Waké</p>
+
+                                        </div>
+                                        <div>
+                                            <p class="text-secondary">Vente de marchandises</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 d-flex justify-content-between flex-wrap">
+                                        <div>
+                                            <p class="mb-0 fw-bold">Forfaits main</p>
+
+                                        </div>
+                                        <div>
+                                            <p class="text-secondary">Prestation artistique</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 d-flex justify-content-between flex-wrap py-3">
+                                        <div>
+                                            <p class="mb-0 fw-bold">Assistance Admin</p>
+
+                                        </div>
+                                        <div>
+                                            <p class="text-secondary">Prestation de services</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 d-flex justify-content-between flex-wrap py-2">
+                                        <div>
+                                            <p class="mb-0 fw-bold">Template de site web</p>
+
+                                        </div>
+                                        <div>
+                                            <p class="text-secondary">Prestation de services</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-5 d-flex justify-content-between flex-wrap ">
+                                        <div>
+                                            <p class="mb-0 fw-bold">Développement web</p>
+
+                                        </div>
+                                        <div>
+                                            <p class="text-secondary">Prestation de services</p>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                         </div>
+                        </div>
+                        <div class="col-12 col-lg-4 " >
+                         <div class="">
+                               <div class=" shadow bg-white p-3 d-flex justify-content-between rounded-2">
+                                <div>
+                                    <i class="bi bi-person-square"></i>
+                                    <span class="ms-1">Clients</span>
+
+                                </div>
+                                <div>
+                                    <i class="bi bi-chevron-right"></i>
+                                </div>
+
+                            </div>
+
+
+                            <div class="shadow bg-white p-3 mt-2 rounded-2" style="height: 570px;">
+                                <div>
+                                    <div class="d-flex text-center">
+                                        <div class="w-50">
+                                            <p class="mb-0 bleu">Derniers clients</p>
+                                            <span class="radio mt-0 w-100" style="background-color:#1E588B;"></span>
+                                        </div>
+
+                                        <div class="w-50">
+                                            <p class="mb-0 text-secondary">Favoris</p>
+                                            <span class="radio mt-0 w-100" style="background-color:#DE4222;"></span>
+                                        </div>
+                                    </div>
+                                  
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap align-items-center">
+                                        <div>
+                                            <p class="bleu">John Doe</p>
+                                            <p class="text-secondary mb-0">john.doe@example.com</p>
+                                            <span>BP-10000 Niamey</span>
+                                        </div>
+                                        <div >
+                                          <i class="bi bi-three-dots"></i>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap align-items-center">
+                                        <div>
+                                            <p class="bleu">John Doe</p>
+                                            <p class="text-secondary mb-0">john.doe@example.com</p>
+                                            <span>BP-10000 Niamey</span>
+                                        </div>
+                                        <div >
+                                          <i class="bi bi-three-dots"></i>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap align-items-center">
+                                        <div>
+                                            <p class="bleu">John Doe</p>
+                                            <p class="text-secondary mb-0">john.doe@example.com</p>
+                                            <span>BP-10000 Niamey</span>
+                                        </div>
+                                        <div >
+                                          <i class="bi bi-three-dots"></i>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap align-items-center">
+                                        <div>
+                                            <p class="bleu">John Doe</p>
+                                            <p class="text-secondary mb-0">john.doe@example.com</p>
+                                            <span>BP-10000 Niamey</span>
+                                        </div>
+                                        <div >
+                                          <i class="bi bi-three-dots"></i>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 d-flex justify-content-between flex-wrap align-items-center">
+                                        <div>
+                                            <p class="bleu">John Doe</p>
+                                            <p class="text-secondary mb-0">john.doe@example.com</p>
+                                            <span>BP-10000 Niamey</span>
+                                        </div>
+                                        <div >
+                                          <i class="bi bi-three-dots"></i>
+                                        </div>
+                                    </div>
+                                 
+
+
+
+                                </div>
+
+                            </div>
+                         </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </main>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./src/styles/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
