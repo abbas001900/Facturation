@@ -12,9 +12,10 @@ header{
       #28355f 55%,
       #233053 100%
     );
-    overflow-x: hidden;
+    position: relative;
     width: 100%;
     top: 0;
+    z-index: 10;
 }
 main{
     background-color: #E0E6ED !important;
@@ -101,34 +102,4 @@ tr, td, th{
 }
 .border-style{
 border: 2px dashed #000;
-}
-@media (min-width:992px){
-
-    header{
-        position: fixed;
-        z-index: 1000;
-    }
-    main{
-        margin-top: 220px;
-    }
-
-}
-@media (max-width:1024px) {
-    main{
-        margin-top: 300px;
-    }
-    
-}
-@media (max-width:991px){
-
-    header{
-        position: relative;
-    }
-    main{
-        margin-top: 0;
-    }
-    .none{
-        border-right:none !important;
-    }
-
 }
