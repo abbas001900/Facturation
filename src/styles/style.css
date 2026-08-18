@@ -3,7 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.bg-couleur {
+    background: linear-gradient(
+      180deg,
+      #3f56b5 0%,
+      #2f437f 20%,
+      #28355f 55%,
+      #233053 100%
+    );
+}
 header{
     background: linear-gradient(
       180deg,
@@ -61,12 +69,12 @@ input.disparitre:focus {
 }
 
 #factureTab .nav-link:hover{
-    background-color: #27355D;
+    background-color: #1273BC;
     color: white;
 }
 
 #factureTab .nav-link.active{
-    background-color: #106EFD !important;
+    background-color: #243157 !important;
     color: white !important;
 }
 
@@ -102,4 +110,14 @@ tr, td, th{
 }
 .border-style{
 border: 2px dashed #000;
+}
+
+.end-1 {
+    right: 1rem;
+}
+.
+@media (min-width: 992px) {
+  .border-end-md-1 {
+    border-right: 1px solid rgba(222, 226, 230, 0.2) !important; /* #dee2e6 est la couleur par défaut de Bootstrap */
+  }
 }
