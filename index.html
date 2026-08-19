@@ -13,7 +13,7 @@
 <body>
     <header class="container-fluid py-2">
         <div class="row p-0 m-0">
-            <div class="col d-flex flex-wrap justify-content-between couleur1 text-white p-2">
+            <div class="col d-flex flex-wrap align-items-center justify-content-between couleur1 text-white p-2">
                 <a href="#" class="fs-5 m-0 text-white text-decoration-none">FACTURATION-APP</a>
                 <div>
                     <i class="bi bi-patch-question-fill m-2">Aide</i>
@@ -24,8 +24,14 @@
                     <i class="bi bi-gear-fill m-2"></i>
                 </div>
             </div>
+            <div class="col-2 d-flex justify-content-center align-items-center">
+                <button class="btn border-white text-white border-1 rounded d-lg-none" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
         </div>
-        <div class="row p-0 m-0 g-3">
+        <div class="row p-0 m-0 g-3 d-none d-lg-flex">
             <div class="col-12 col-lg-3 col-md-6 text-white none "
                 style="border-right: solid 1px rgba(255, 255, 255, 0.711) ; ">
                 <span class="text-secondary">PRODUCTIVITE</span>
@@ -541,6 +547,137 @@
 
     </main>
 
+
+    <!-- Sidebar en offcanvas-->
+    <div class="offcanvas bg-couleur overflow-y-scroll offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="max-width: 85vw;">
+        <div class="row p-2 m-0 g-3 position-relative">
+            <button type="button" class="btn-close position-absolute top-0 end-1" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            <div class="col-12 text-white ">
+                <span class="text-secondary">PRODUCTIVITE</span>
+                <div class="mt-2">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-graph-up"> </i>
+                        <span class="ms-1">Analyse</span>
+                    </a>
+
+                </div>
+                <div class="mt-1">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-check-circle"></i>
+                        <span class="ms-1">Tache</span>
+                    </a>
+
+                </div>
+                <div class="mt-1">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-card-checklist"></i>
+                        <span class="ms-1">Projets</span>
+                    </a>
+
+                </div>
+                <div class="mt-1">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-clock-history"></i>
+                        <span class="ms-1">Suivi du temps</span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-12 text-white">
+                <span class="text-secondary">SUIVI ET FACTURES</span>
+                <div class="mt-2">
+                    <a href="./src/pages/facture/facturation.html" class="text-decoration-none text-white ">
+                        <i class="bi bi-file-earmark-bar-graph"></i>
+                        <span class="ms-1">Facturation</span>
+                    </a>
+
+                </div>
+                <div class="mt-1">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-person-square"></i>
+                        <span class="ms-1">Clients</span>
+                    </a>
+
+                </div>
+                <div class="mt-1">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-file-earmark"></i>
+                        <span class="ms-1">Articles</span>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="col-12 text-white">
+                <span class="text-secondary">COMPTABILITES</span>
+                <div class="mt-2">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-journal-bookmark"></i>
+                        <span class="ms-1">Livres</span>
+                    </a>
+
+                </div>
+                <div class="mt-1">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-briefcase-fill"></i>
+                        <span class="ms-1">Declarations</span>
+                    </a>
+
+                </div>
+                <div class="mt-1">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-file-text"></i>
+                        <span class="ms-1">TVA</span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-12 text-white  d-flex gap-5 flex-wrap">
+                <div>
+                    <span class="text-secondary">ALLER PLUS LOIN</span>
+                    <div class="mt-2">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-tag-fill"></i>
+                            <span class="ms-1">CE des insides</span>
+                        </a>
+
+                    </div>
+
+                    <div class="mt-1">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-card-checklist"></i>
+                            <span class="ms-1">Parrainage</span>
+                        </a>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-link-45deg"></i>
+                            <span class="ms-1">Integration</span>
+                        </a>
+
+                    </div>
+                    <div class="mt-1">
+                        <a href="#" class="text-decoration-none text-white ">
+                            <i class="bi bi-cloud-download"></i>
+                            <span class="ms-1">Export</span>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="mt-1">
+                    <a href="#" class="text-decoration-none text-white ">
+                        <i class="bi bi-shop"></i>
+                        <span class="ms-1">Store</span>
+                    </a>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
     <script src="./src/styles/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

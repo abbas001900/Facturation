@@ -115,7 +115,8 @@ border: 2px dashed #000;
 .end-1 {
     right: 1rem;
 }
-.
+
+
 @media (min-width: 992px) {
   .border-end-md-1 {
     border-right: 1px solid rgba(222, 226, 230, 0.2) !important; /* #dee2e6 est la couleur par défaut de Bootstrap */
